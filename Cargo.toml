@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 rust-embed = "8.8.0"
+ctrlc = "3.4"
+windows = { version = "0.58", features = ["Win32_Foundation", "Win32_System_Console", "Win32_System_Threading"] }
